@@ -9,7 +9,7 @@ class About extends Component {
           <div className="col-full text-center">
             <h3>About</h3>
             <h1>More About Me</h1>
-            <p className="lead">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
+            <p className="lead">I'm a Computer Science student at UFF (Fluminense Federal University), based in Niterói-RJ / Brazil, interested in the follow areas: Game Development, VR, AR and CG. I always look for experiences that allow me to realize innovations and that can offer me personal and professional growth.</p>
           </div>
         </div>
         <div className="row about-content">
@@ -25,65 +25,62 @@ class About extends Component {
             <ul className="skill-bars">
               <li>
                 <div className="progress percent90"><span>90%</span></div>
-                <strong>HTML5</strong>
+                <strong>Unity</strong>
               </li>
               <li>
-                <div className="progress percent85"><span>85%</span></div>
-                <strong>CSS3</strong>
+                <div className="progress percent90"><span>90%</span></div>
+                <strong>C#</strong>
               </li>
               <li>
-                <div className="progress percent70"><span>70%</span></div>
-                <strong>JQuery</strong>
-              </li>
-              <li>
-                <div className="progress percent95"><span>95%</span></div>
-                <strong>PHP</strong>
+                <div className="progress percent80"><span>80%</span></div>
+                <strong>Java</strong>
               </li>
               <li>
                 <div className="progress percent75"><span>75%</span></div>
-                <strong>Wordpress</strong>
+                <strong>Ruby on Rails</strong>
+              </li>
+              <li>
+                <div className="progress percent70"><span>70%</span></div>
+                <strong>C++</strong>
               </li>   
               <li>
-                <div className="progress percent90"><span>90%</span></div>
-                <strong>Angular JS</strong>
+                <div className="progress percent70"><span>70%</span></div>
+                <strong>Phyton</strong>
               </li>   
             </ul>
           </div>
-        </div> {/* end about-content */}
+        </div>
         <div className="row about-content about-content--buttons">
-          <div className="col-six tab-full left">
+          <div className="col-six tab-full">
             <a href="#0" className="btn btn--primary full-width">Download My CV</a>
           </div>
-          <div className="col-six tab-full right">
-            <a href="#0" className="btn full-width">Hire Me Now</a>
-          </div>
-        </div> {/* end about-content buttons */}
+        </div>
         <div className="row about-content about-content--timeline">
           <div className="col-full text-center">
-            <h3>My Work Experience.</h3>
+            <h3>My Professional Experiences.</h3>
           </div>
           <div className="col-six tab-full left">
             <div className="timeline">
               <div className="timeline__block">
                 <div className="timeline__bullet" />
                 <div className="timeline__header">
-                  <p className="timeline__timeframe">July 2015 - Present</p>
-                  <h3>Awesome Studio</h3>
-                  <h5>Lead Designer</h5>
+                  <p className="timeline__timeframe">February 2019 - Today</p>
+                  <h3>Aiyra Game Studio</h3>
+                  <h5>Game / App Developer</h5>
                 </div>
                 <div className="timeline__desc">
-                  <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                  <p>Development off Games and complete applications, most using the Unity engine, including loading of assets by server (asset bundle). Development and implementation of UI, general UX and plugins.</p>
                 </div>
               </div> {/* end timeline__block */}
               <div className="timeline__block">
                 <div className="timeline__bullet" />
                 <div className="timeline__header">
-                  <p className="timeline__timeframe">July 2014 - June 2015</p>
-                  <h3>Super Cool Agency</h3>
-                  <h5>Front-end Developer</h5>
+                  <p className="timeline__timeframe">November 2018 - January 2020</p>
+                  <h3>TecZelt</h3>
+                  <h5>Development Intern</h5>
                 </div>
                 <div className="timeline__desc">	
-                  <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
+                  <p>Development and maintenance off FazGame, an online game creation plataform (www.fazgame.com.br). Game system is made using Unity3D (WebGL), and is integrated with an Website made in RubyOnRails</p>
                 </div>
               </div> {/* end timeline__block */}
             </div> {/* end timeline */}

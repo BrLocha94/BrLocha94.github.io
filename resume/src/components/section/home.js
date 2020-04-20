@@ -12,8 +12,8 @@ class Home extends Component{
               <h3>Welcome</h3>
               <h1>
                 I'm Bruno Locha <br />
-                m a game developer <br />
-                based in Niteroi/RJ.
+                i'm a game developer <br />
+                based in Niteroi-RJ / Brazil.
               </h1>
               <div className="home-content__buttons">
                 <a href="#works" className="smoothscroll btn btn--stroke">

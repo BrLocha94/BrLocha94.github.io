@@ -41,6 +41,9 @@ class Footer extends Component {
             <span>© Copyright Bruno Locha 2020</span> 
             <span>Thanks <a href="https://www.styleshout.com/">Styleshout</a> For This Amazing Design</span>	
           </div>
+          <div class="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+          </div>
         </div>
       </div>
     </footer>

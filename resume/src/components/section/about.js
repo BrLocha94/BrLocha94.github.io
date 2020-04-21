@@ -45,7 +45,7 @@ class About extends Component {
               </li>   
               <li>
                 <div className="progress percent70"><span>70%</span></div>
-                <strong>Phyton</strong>
+                <strong>Python</strong>
               </li>   
             </ul>
           </div>

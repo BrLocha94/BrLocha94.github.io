@@ -6,9 +6,10 @@ class Logo extends Component {
       <React.Fragment>
         <div className="header-logo">
           <a className="site-logo" href="index.html">
-            <img src="images/logo.png" alt="Homepage" /></a>
+            <img src={process.env.PUBLIC_URL + '/images/logo.png'} />
+          </a>
         </div>
-        </React.Fragment>
+      </React.Fragment>
     );
   }
 };

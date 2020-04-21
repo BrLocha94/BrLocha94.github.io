@@ -14,10 +14,12 @@ class About extends Component {
         </div>
         <div className="row about-content">
           <div className="col-six tab-full left">
-            <h3>Howdy!</h3>
-            <p>Lorem ipsum Ut eiusmod ex magna sit dolor esse adipisicing minim ad cupidatat eu veniam nostrud mollit laboris sunt magna velit culpa consectetur nostrud consectetur labore sed do.</p>
+            <h3>Hello!</h3>
             <p>
-              Lorem ipsum Nisi officia Duis irure voluptate dolor commodo pariatur occaecat aliquip adipisicing voluptate Ut in qui ea sint occaecat in commodo in in in incididunt ut sunt in Ut Duis in ut ex qui anim cupidatat cupidatat ex in non dolore labore ea amet cillum ea qui dolor nisi sed velit mollit exercitation ex fugiat labore in deserunt culpa laborum culpa anim dolore laboris amet irure mollit proident velit fugiat aute ea elit magna consequat qui officia quis elit Duis dolor esse cupidatat tempor proident voluptate aliqua ex cupidatat do eiusmod veniam irure laborum ut magna nostrud dolore ullamco commodo elit sit magna aliqua laborum veniam officia dolor.	
+              My name is Bruno Locha Gomes Oliveira, i'm a brazilian developer and a bachelor student at UFF, passionate about games, VR, AR and most off the real time render technologies.
+            </p>
+            <p>
+              Most of my prefered skills are represented in this chart, but i'm pretty adaptable and really open to learn any new technologies. I got experience in remote and freelancer work and look foward 
             </p>
           </div>
           <div className="col-six tab-full right">
@@ -27,7 +29,7 @@ class About extends Component {
                 <div className="progress percent90"><span>90%</span></div>
                 <strong>Unity</strong>
               </li>
-              <li>
+              {/* <li>
                 <div className="progress percent90"><span>90%</span></div>
                 <strong>C#</strong>
               </li>
@@ -45,8 +47,8 @@ class About extends Component {
               </li>   
               <li>
                 <div className="progress percent70"><span>70%</span></div>
-                <strong>Python</strong>
-              </li>   
+                <strong>Android Studio</strong>
+              </li>    */}
             </ul>
           </div>
         </div>

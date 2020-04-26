@@ -6,11 +6,11 @@ class Header extends Component {
   render (){
     return(
       <React.Fragment>
-      <header className="s-header">
-        <Logo />
-        <Nav />
-        <a className="header-menu-toggle" href="#0"><span>Menu</span></a>
-      </header>
+        <header className="s-header">
+          <Logo />
+          <Nav />
+          <a className="header-menu-toggle" href="#0"><span>Menu</span></a>
+        </header>
       </React.Fragment>
     );
   }

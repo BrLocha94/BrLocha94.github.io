@@ -19,7 +19,8 @@ class About extends Component {
               My name is Bruno Locha Gomes Oliveira, i'm a brazilian developer and a bachelor student at UFF, passionate about games, VR, AR and most off the real time render technologies.
             </p>
             <p>
-              Most of my prefered skills are represented in this chart, but i'm pretty adaptable and really open to learn any new technologies. I got experience in remote and freelancer work and look foward 
+              Most of my prefered skills are represented in this chart, but i'm pretty adaptable and really open to learn any new technologies.
+              I got experience in remote and freelancer work and look foward to new challenges
             </p>
           </div>
           <div className="col-six tab-full right">
@@ -29,7 +30,7 @@ class About extends Component {
                 <div className="progress percent90"><span>90%</span></div>
                 <strong>Unity</strong>
               </li>
-              {/* <li>
+              <li>
                 <div className="progress percent90"><span>90%</span></div>
                 <strong>C#</strong>
               </li>
@@ -48,7 +49,7 @@ class About extends Component {
               <li>
                 <div className="progress percent70"><span>70%</span></div>
                 <strong>Android Studio</strong>
-              </li>    */}
+              </li>
             </ul>
           </div>
         </div>
@@ -87,6 +88,7 @@ class About extends Component {
               </div> {/* end timeline__block */}
             </div> {/* end timeline */}
           </div> {/* end left */}
+          {/*
           <div className="col-six tab-full right">
             <div className="timeline">
               <div className="timeline__block">
@@ -99,7 +101,7 @@ class About extends Component {
                 <div className="timeline__desc">
                   <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
                 </div>
-              </div> {/* end timeline__block */}
+              </div> 
               <div className="timeline__block">
                 <div className="timeline__bullet" />
                 <div className="timeline__header">
@@ -110,9 +112,10 @@ class About extends Component {
                 <div className="timeline__desc">
                   <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
                 </div>
-              </div> {/* end timeline__block */}
-            </div> {/* end timeline */}
-          </div> {/* end right */}
+              </div>
+            </div>
+          </div>
+          */}
         </div> {/* end about-content timeline */}
       </section> {/* end about */}
       </React.Fragment>
